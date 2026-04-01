@@ -1,0 +1,74 @@
+‎ Comprehensive Multi-Tool Utility List
+‎To build a truly versatile "daily usage" platform, you can organize your tools into these specific conversion and extraction pairs.
+‎### 1. Document & Image Processing
+‎ * **PDF to JPG / PNG / WebP**
+‎ * **JPG / PNG to PDF**
+‎ * **Image to Word (.docx)** (via OCR)
+‎ * **Image to Excel (.xlsx)** (Table extraction)
+‎ * **Image to CSV**
+‎ * **PDF to Text (.txt)**
+‎ * **Word to PDF**
+‎ * **HEIC to JPG / PNG** (Essential for iPhone photo uploads)
+‎ * **SVG to PNG**
+‎### 2. Media & Audio Conversion
+‎ * **MP4 to MP3**
+‎ * **MP4 to WAV / AAC**
+‎ * **Video to GIF**
+‎ * **WAV to MP3** (Audio compression)
+‎ * **MKV to MP4** (Format compatibility)
+‎ * **Audio to Text** (Transcription)
+‎### 3. Web & Data Extraction
+‎ * **URL to PDF** (Saves a webpage as a document)
+‎ * **URL to PNG** (Full-page screenshot)
+‎ * **HTML to Markdown**
+‎ * **JSON to CSV / Excel**
+‎ * **CSV to JSON**
+‎ * **XML to JSON**
+‎ * **Website Favicon Grabber**
+‎ * **Metadata Extractor** (Extract EXIF data from images)
+‎### 4. Developer & Text Tools
+‎ * **Text to Case Change** (Uppercase, Lowercase, Title Case)
+‎ * **Lorem Ipsum Generator**
+‎ * **Password / Token Generator**
+‎ * **Base64 to Image**
+‎ * **Image to Base64**
+‎ * **SQL Formatter**
+‎ * **QR Code Generator** (Text/URL to Image)
+‎### Implementation Tips
+‎ * **Client-Side Processing:** For simple tools like "Text to Case" or "JSON Formatter," use client-side JavaScript to save server costs.
+‎ * **FFmpeg:** Use ffmpeg.wasm for video and audio conversions directly in the browser to keep your backend light.
+‎ * **Sharp:** For image conversions (JPG to PNG, etc.), use the Sharp library in your Next.js API routes for high performance.
+‎ * **OCR:** For "Image to Excel/Word," **Tesseract.js** is a great open-source choice.
+‎
+‎## Expanded Utility Tool List
+‎Here is an additional set of tools focused on security, hashing, image identification, and generative utilities.
+‎### 5. Security & Hashing Tools
+‎ * **Text to MD5 / SHA-1 / SHA-256:** Standard hashing for data integrity.
+‎ * **File Checksum Verifier:** Allows users to upload a file and generate a hash to verify it hasn't been tampered with.
+‎ * **Bcrypt / Argon2 Generator:** Specifically for password hashing (useful for your fellow developers).
+‎ * **HMAC Generator:** For creating keyed-hash message authentication codes.
+‎ * **Password Strength Analyzer:** Provides a entropy score for user-entered strings.
+‎### 6. Image Hashing & Identification
+‎ * **Average Hash (aHash):** Identifies similar images by flattening colors.
+‎ * **Perceptual Hash (pHash):** A more robust hash that finds similar images even if they are resized or slightly color-corrected.
+‎ * **Difference Hash (dHash):** Tracks gradients to find near-duplicate images.
+‎ * **Duplicate Image Finder:** Compares hashes of multiple uploaded images to find clones.
+‎ * **Image Error Level Analysis (ELA):** Identifies if an image has been digitally modified/photoshopped.
+‎### 7. Smart Generators
+‎ * **QR Code Generator:** Supports URL, WiFi credentials, VCards, and UPI IDs (very useful for the Indian market).
+‎ * **Barcode Generator:** Supports EAN-13, Code 128, and UPC for product labeling.
+‎ * **UUID / GUID Generator:** Generates unique identifiers for database primary keys.
+‎ * **Dummy Data Generator:** Creates bulk JSON/CSV data (Names, Emails, Addresses) for testing.
+‎ * **Open Graph (OG) Previewer:** Generates a preview of how a link will look on WhatsApp, Facebook, or X.
+‎ * **Favicon Generator:** Converts a square PNG into a multi-size .ico file.
+‎### 8. Digital Asset Utilities
+‎ * **CSS Gradient Generator:** Visual tool to export CSS code.
+‎ * **Aspect Ratio Calculator:** Helps designers find dimensions for 16:9, 4:3, or 21:9.
+‎ * **SVG Path Optimizer:** Minifies heavy SVG code for better web performance.
+‎ * **YouTube Thumbnail Downloader:** Fetches high-res thumbnails via video URL.
+‎ * **Lottie Animation Previewer:** For testing JSON-based animations.
+‎### 9. Productivity & Formatting
+‎ * **Word Counter:** Includes character count, reading time, and keyword density.
+‎ * **Remove Duplicate Lines:** Cleans up text lists or email databases.
+‎ * **Markdown Live Editor:** A side-by-side previewer for .md files.
+‎ * **CSV to HTML Table:** Quickly converts data into a format ready for a website.
