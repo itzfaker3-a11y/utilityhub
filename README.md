@@ -44,7 +44,7 @@ A comprehensive, open-source multi-tool utility platform with 49+ tools across 9
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/utilityhub.git
+git clone https://github.com/itzfaker3-a11y/utilityhub.git
 cd utilityhub
 
 # Install all dependencies
